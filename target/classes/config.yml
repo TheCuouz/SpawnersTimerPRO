@@ -1,0 +1,16 @@
+# SpawnersTimer configuration file
+# Tiempo de duracion por defecto en segundos
+
+default_duration: 86400
+
+# Mensajes
+
+messages:
+  expiredMessage: "&cTu spawner ha expirado."
+  remainingTimeMessage: "&aTiempo restante para expiracion: %time%"
+
+
+commands:
+    st:
+      description: El comando que permite al jugador checkear la fecha de expiracion del spawner que tiene en la mano
+      usage: /st check
